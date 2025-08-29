@@ -1,0 +1,13 @@
+.container{
+    /* height: 100px; */
+    display: flex;
+    border: 200px solid rgb(17, 49, 17);
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.child {
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
