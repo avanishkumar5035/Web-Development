@@ -23,6 +23,8 @@ body{
 .nav-links a{
     margin-left: 20px;
     font-size: 15px;
+    text-decoration: none;
+    color: #1a1a1a;
 }
 .nav-links .btn{
     padding: 10px;
@@ -68,7 +70,10 @@ body{
     background-color: #dcdcdc;
 }
 .footer a{
-    margin: 0px 50px;
+    margin-left: 5px 50px;
+    padding:2px 5px;
     color: #1a1a1a;
+    text-decoration: none;
+
 
 }

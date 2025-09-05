@@ -1,0 +1,37 @@
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.w3-black {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+.w3-padding {
+  padding: 8px 16px !important;
+}
+
+.w3-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.w3-container {
+  padding: 0.01em 16px;
+}
+
+.w3-top {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
