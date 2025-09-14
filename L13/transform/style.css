@@ -3,8 +3,23 @@
     width: 200px;
     border: 2px solid red;
     margin: 100px auto;
+    transition-duration: 3s;
 
 }
 .box:hover{
-    transform: translateX(-100px);
+    /* transition-duration: 3s; */
+    /* transform: translateX(-100px); */
+    /* transform: translateY(150px); */
+    /* transform: translateZ(100px); */
+    /* transform: translate(100px);  */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg) */
+    /* transform: rotateZ(-145deg); */
+    /* transform: rotate(45deg); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+    /* transform: scaleZ(1.5); */
+    /* transform: scale(1.2); */
+    /* transform:skewX(45deg); */
+    transform: scale(1.5) rotate(45deg);
 }
