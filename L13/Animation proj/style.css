@@ -12,17 +12,44 @@
     animation-duration: 6s;
     animation-fill-mode: forwards;
 }
+@keyframes bgMove{
+    100%{
+        background-position: -6000px 0px;
+    }
+}
 .rocket{
-    height: 200px;
+height: 200px;
     width: 200px;
+    /* border: 2px solid red; */
+    transform: rotate(45deg);
+    position: absolute;
+    left: 400px;
+    bottom: 200px;
+    animation: rocketMove 2s linear 3 forwards,
+                rotateRocket 1s ease-in-out 11s forwards,
+                rocketLaunch 1.5s ease-in-out 12.5s forwards;
+}
+@keyframes rocketLaunch{
+    100%{
+        bottom: 200vh;
+    }
+}
+
+@keyframes rotateRocket{
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+/* .cody{
+    height: 200px;
+    width: 50px;
     border: 2px solid red;
     transform: rotate(45deg);
     position: absolute;
     left: 400px;
     bottom: 200px;
-    animation: rocketMove 2s linear 3 forwards;
-
-}
+    animation: cody 2s linear 3 forwards; */
+/* } */
 @keyframes bgMove{
     100%{
         background-position: -6000px 0px;
@@ -52,5 +79,31 @@
     100%{
         bottom: 200px;
 
+    }
+}
+.cody{
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 200px;
+    left: -500px;
+    animation: codyMove 4s ease-out 4s forwards,
+                codyInRocket 500ms ease-in-out 8.5s forwards;
+}
+.cody img{
+    height: 100%;
+}
+
+@keyframes codyMove{
+    100%{
+        left: 300px;
+    }
+}
+
+@keyframes codyInRocket{
+    100%{
+        left: 500px;
+        transform: scale(0);
     }
 }

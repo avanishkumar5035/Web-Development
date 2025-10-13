@@ -1,0 +1,14 @@
+.col{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+}
+.row{
+    display: flex;
+}
+.row-A .col:nth-child(2n){
+    background-color: black;
+}
+.row-B .col:nth-child(2n+1){
+    background-color: black;
+}
