@@ -5,3 +5,6 @@ let filterArr = arr.filter((item,ind,arr)=>{
     }
 })
 console.log(filterArr);
+let student = [
+    {name: "smith",rollno:31,marks:80},
+]
